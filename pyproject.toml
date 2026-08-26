@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "philosophia-torch"
+version = "1.0.0"
+description = "Testable philosophy-inspired objectives and regularizers for PyTorch"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "PROVOLTA research prototype"}]
+dependencies = ["torch>=2.0"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[tool.setuptools]
+py-modules = ["philosophia_torch", "philosophical_learning"]
+
+[tool.setuptools.packages.find]
+include = ["philosophia*"]

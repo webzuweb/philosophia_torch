@@ -1,0 +1,26 @@
+philosophia-torch 1.0.0
+========================
+
+Environment used for validation:
+- Python: 3.13.5
+- PyTorch: 2.10.0+cpu
+
+Commands:
+
+    PYTHONPATH=. python -m pytest -q
+
+Result:
+
+    45 passed
+
+Additional reproducibility runs:
+
+    OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 \
+    PYTHONPATH=. python examples/demo_calibration.py --seeds 10 \
+      --json benchmarks/calibration_results.json
+
+    OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 \
+    PYTHONPATH=. python examples/demo_shortcut_epoche.py --seeds 10 \
+      --json benchmarks/epoche_shortcut_results.json
+
+See README.md and COMPARISON_AND_MERGE_REPORT.md for aggregate values and limits.
