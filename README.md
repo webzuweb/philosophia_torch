@@ -191,9 +191,8 @@ PYTHONPATH=. python -m pytest -q
 - `HermeneuticRefiner`, `DialecticalSynthesis` и `TriadicSemiosis` дают
   представления; decoder/head остаётся частью вашей модели.
 
-## Отчёт
+## Фигуры
 
-- `COMPARISON_AND_MERGE_REPORT.md`
 - `figures/loss_surfaces/` — формульные двумерные срезы функций потерь
 
 ## Лицензия
