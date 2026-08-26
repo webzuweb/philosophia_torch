@@ -191,10 +191,8 @@ PYTHONPATH=. python -m pytest -q
 - `HermeneuticRefiner`, `DialecticalSynthesis` и `TriadicSemiosis` дают
   представления; decoder/head остаётся частью вашей модели.
 
-## Статья и отчёт
+## Отчёт
 
-- `article/philosophy_neural_learning_habr_merged.md`
-- `article/Filosofiya-obucheniya-neyrosetey-Habr-merged.docx`
 - `COMPARISON_AND_MERGE_REPORT.md`
 - `figures/loss_surfaces/` — формульные двумерные срезы функций потерь
 

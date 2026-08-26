@@ -167,7 +167,6 @@
 - `examples/demo_shortcut_epoche.py` — сравнение двух смыслов bracketing.
 - `benchmarks/*.json` — значения каждого запуска и агрегаты.
 - `figures/` — графики экспериментов.
-- `article/philosophy_neural_learning_habr_merged.md` — объединённая статья.
 
 ## Итоговый вердикт
 
